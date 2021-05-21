@@ -1,0 +1,5 @@
+#index.php  => навигация
+#login.php => логин
+#regist.php => регистрация
+#to_do_list.php => список постов
+#welcome.php => профиль

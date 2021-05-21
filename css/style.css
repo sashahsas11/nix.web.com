@@ -1,0 +1,41 @@
+.modal{
+  padding: 50px;
+  background: #ccc;
+  position: fixed; top: 50%; left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+TABLE {
+  border-collapse: collapse; /* Убираем двойные линии между ячейками */
+  width: 100%; /* Ширина таблицы */
+  
+  word-wrap:break-word;
+  table-layout: fixed;
+ }
+ TH, TD {
+  border: 1px solid black; /* Параметры рамки */
+  text-align: center; /* Выравнивание по центру */
+  padding: 4px; /* Поля вокруг текста */
+  text-align: left;
+  word-wrap:break-word;
+  table-layout: fixed;
+  width: 100%;
+  overflow: auto;
+ }
+ TH {
+  background: #fc0; /* Цвет фона ячейки */
+  height: 20px; /* Высота ячеек */
+  vertical-align: bottom; /* Выравнивание по нижнему краю */
+  padding: 0; /* Убираем поля вокруг текста */
+  word-wrap:break-word;
+  table-layout: fixed;
+  
+ }
+
+ .log{
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0); 
+ }
+
